@@ -1,0 +1,140 @@
+body {
+  background-color: #160C6E;
+}
+.ikon{
+  max-width: 4%;
+}
+.kutu {
+  border:1px solid;
+  background-color: #3F21D0;
+  width: 70%;
+  height: 90rem;
+  border-radius: 60%;
+  position: absolute;
+  top: -5%;
+  bottom: -5%;
+}
+.kutu-2 {
+  border:1px solid;
+  background:linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+  width: 35%;
+  height: 50rem;
+  border-radius: 60%;
+  position: absolute;
+  top: 20%;
+}
+.Yazilar{
+  padding-left: 3%;
+  padding-top: 14%;
+  font-size: 0.5rem;
+  color: white;
+}
+.btn{
+  border-radius: 25px;
+  margin-top: 2%;
+  position: absolute;
+  left:70%
+
+}
+.ikonlar{
+  margin-left: 2%;
+}
+.Yazilar-2{
+  font-size: 11rem;
+  padding-top: 25%;
+  padding-left: 25%;
+  position: relative;
+  z-index: 2
+
+}
+.yazi-3{
+  font-size: 1.5rem;
+  width: 40%;
+  margin-left: 53%;
+  font-weight: bold;
+}
+.resim{
+  max-width: 65%;
+  max-height: 65%;
+  position:relative;
+  bottom: 55%;
+  left: 2.5%
+}
+.yuvarlaklar-1{
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  position: absolute;
+  top: 12%;
+  left: 23%
+
+}
+.yuvarlaklar-2{
+  border: 2px solid white;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+.yuvarlaklar-3{
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  position: absolute;
+  top: 85%;
+  left: 22%;
+
+}
+.yuvarlaklar-4{
+  border: 2px solid white;
+  width: 10px;
+  height: 25px;
+  border-radius: 60%;
+  position: absolute;
+  top: 75%;
+  left: 55%;
+}
+.yuvarlaklar-5{
+  border: 2px solid white;
+  width: 15px;
+  height: 30px;
+  border-radius: 50%;
+  position:absolute;
+  top: 13%;
+  left:60%;
+
+
+}
+.yuvarlaklar-6{
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  position: absolute;
+  top: 85%;
+  left: 60%;
+
+}
+.yuvarlaklar-7{
+  border: 3px solid white;
+  width: 15px;
+  height: 30px;
+  border-radius: 60%;
+  position: absolute;
+  top: 15%;
+  left: 83%;
+
+}
+.yuvarlaklar-8{
+  border: 3px solid white;
+  width: 15px;
+  height: 30px;
+  border-radius: 60%;
+  position: absolute;
+  top: 85%;
+  left: 85%;
+}

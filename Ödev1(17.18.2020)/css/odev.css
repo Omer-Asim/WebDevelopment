@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@300&display=swap');
+body{
+  margin :0;
+}
+.container-fluid{
+  background-color: #81C14B;
+  padding: 10px;
+  color:white;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+}
+.sol-sag-padding{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+a{
+  font-size:1.1rem;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-left: 3px solid;
+  border: 2px solid #2ec1ac;
+  border-radius: 5px;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  margin-left: 10px;
+
+
+}
+a:hover{
+  background-color: #1d3461;
+  border: 2px solid #1d3461;
+  color: white;
+}
+.logo{
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: 'Marck Script';
+}
+.linkler{
+height:75px;
+display: flex;
+float: right;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 40%;
+
+}
+  .Kutu1{
+    width:auto;
+    height:270px;
+    background-color:#76ead7;
+    color:black;
+    margin: 0 5% 10px 5%; }
+  .resim1{
+  width:200px;
+  height:200px;
+  margin: 0 10% 2% 5%;
+  padding-bottom: 75%;
+  padding-top: 15%;
+  padding-left: 5%;
+  padding-right: 10%;}
+  .kutu2{
+    width:auto;
+    height:270px;
+    background-color:#393e46;
+    color: white;
+  margin: 0 5% 10px 5%;}
+.resim2{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15%;
+  margin-top: 0;
+padding-bottom: 0;
+padding-top: 15%;
+margin-right: 50%;}
+.kutu3{
+  width: auto;
+  height: 270px;
+  background-color:#dbcbbd;
+  color:black;
+  margin: 0 5% 0 5%;}
+.resim3{
+  width:200px;
+  height:200px;
+  margin: 0 10% 2% 5%;
+  padding-bottom: 75%;
+  padding-top: 15%;  padding-left: 5%;
+  padding-right: 10%;}
+.container {
+background-color: #71C9CE;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.hakkımdayazi{
+color:black;
+padding-left: 3%;
+padding-right: 3%;
+padding-top: 0;
+padding-bottom: 15%}
+
+.Hobilerimyazi{
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0;
+    padding-bottom: 5%;}
+.Bildigimdilleryazi{
+  color:black;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 0;
+  padding-bottom: 15%
+}
+.ustegeridon{
+  background-color: green;
+  padding:10px;
+  text-align: center;
+}
+.alt-link{
+  text-decoration: none;
+  color:#dddddd;
+}
+.alt-link:hover{
+  text-decoration: underline;
+}
+.container-alt{
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footer-arkaplan{
+  background-color: #232F3E;
+}
+.menu{
+  width:25%;
+  padding: 15px;
+}
+.baslik{
+  color: #ffffff;
+  font-weight: 700;
+}
+.menu ul {
+  /* dededen gelen paddingi reddediyoruz. */
+  padding: 0;
+}
+.menu ul li {
+  list-style-type: none;
+  padding-top:3px;
+  padding-bottom:3px;
+}
+.menu ul li a {
+  color : #dddddd;
+  text-decoration: none; /* altı çizgili olmasın */
+}
+.menu ul li a:hover{
+  text-decoration: underline; /* altını çizdik */
+}

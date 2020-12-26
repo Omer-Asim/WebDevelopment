@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@300&display=swap');
+h1:hover{
+  color: red;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  background-color: yellow;
+}
+body{
+  background-color: #c060a1;
+  margin: 0;
+}
+.container-fluid{
+  width: auto;
+  height: 100px;
+  background-color: skyblue;
+  text-align:center;
+}
+.OmerAsim{
+  color: white;
+  width: 450px;
+  margin: auto;
+  float: left;
+  padding: 10px;
+  font-family: 'Marck Script';
+}
+.iletisim{
+  width: 100px;
+  margin-left: 15px;
+  border: 3px solid gray;
+  font-family: sans-serif;
+  border-radius: 15px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 1rem;
+  background-color: #effad3;
+   }
+.container{
+     width: auto;
+     height: 800px;
+     background-color: gray;
+     padding: 10px;
+   }
+.box1{
+  width: 700px;
+  border: 3px solid yellow;
+  border-radius: 15px;
+  height: 200px;
+  margin: 10px auto ;
+
+}
+p{
+  border: 10px solid ;
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+  border-color: red blue orange black;
+  text-align: center;
+}
+.ornek1{
+  width: 300px;
+  height: 300px;
+  border: 2px solid blue;
+  float:left;
+  margin-right: 25px;
+}
+.tablo{
+  width: 150px;
+  margin-left: 2%;
+  text-align: left;
+}
+.link{
+  text-decoration: none;
+  font-size: 2rem;
+  color: green;
+  padding-left: 33%;
+}
+a:hover{
+  color: black;
+}
+.kutular{
+  color: white;
+  background-color: red;
+  width: 100%;
+
+}
+.kutu1{
+  padding: 0 40%;
+  font-size: 20px;
+
+}
+.kutu2{
+  font-size: 1.2rem;
+  text-align: right;
+}
+.omer{
+  border-radius: 25px;
+  border-width: 10px;
+  border-style:  dotted;
+  border-color: red;
+}
+.navbar{
+  padding: 0 1rem;
+}
+.arkaplan-mavi{
+  background-color: blue;
+}

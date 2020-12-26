@@ -1,0 +1,77 @@
+
+.navbar{
+  padding: 0.5rem 1rem;
+}
+.nav-radius{
+  border-radius: 1rem;
+}
+.ust-alt-bosluk45px{
+ padding: 35px 0;
+}
+.slogan{
+  font-size: 2rem;
+  font-family:'Ubuntu';
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+
+.indirme-butonları{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+
+
+    }
+.ust-kisim-bosluk{
+  margin-top: 0;
+}
+.container-fluid{
+  padding: 5% 15%;
+}
+.fas{
+  color: #FFD166;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .ucak{
+    width: 50%;
+    transform: rotate(25deg);
+  }
+}
+/* ekran maximum 767px ise */
+/* bizim 767px'den küçük cihazlar için eklediğimiz kod*/
+@media (max-width: 767px) {
+  .ucak{
+    margin-top:30px;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+  .indirme-butonları{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  .r-l-fluid-padding{
+    padding: 3% 15%;
+  }
+}
+@media (max-width: 991px) {
+  .r-l-fluid-padding{
+    padding: 3% 3%;
+  }
+}
+.a-p-r{
+  background-color: orange;
+  margin: 0 auto;
+}
+.ucak{
+  color: white;
+  border-radius: 15px;
+  margin: auto;
+}
+.ucus-kutu{
+  border-radius: 15px;
+  background-color: white;
+
+}

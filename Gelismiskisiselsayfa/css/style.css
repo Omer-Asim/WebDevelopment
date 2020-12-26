@@ -1,0 +1,30 @@
+.kirmizi{
+  color:#ff0000;
+}
+.arkaplan-rengi{
+  background-color:#ecf4f3
+}
+
+
+.kutu1{
+  width:auto;
+  height:250px;
+  background-color:#968c83;
+  color:white;
+  margin: 3% 5% 0 5%;
+
+}
+.kutu2{
+width: auto;
+height: 250px;
+background-color: #d6d2c4;
+color: white;
+margin: 3% 5% 0 5%;
+}
+.kutu3{
+width: auto;
+height: 250px;
+background-color: #f7dad9;
+color: white;
+margin:3% 5% 0 5%;
+}

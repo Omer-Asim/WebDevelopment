@@ -1,0 +1,61 @@
+body{
+  background: url("C:/Users/omera/Desktop/Wep Devolopment/Team1-ilk çalışma/images/b2.jpg") no-repeat;
+  background-size:cover;
+  min-height: 650px;
+}
+a{
+  color: white;}
+a:hover{
+  color: white;}
+.r-l-t-b{
+  margin: 4% 20% 0 20%;
+  width: 60%;
+}
+.arkaplan{
+  background-color: #6610f2;
+  opacity: 0.8;
+  filter: alpha(opacity(80));
+}
+.img{
+  max-height: 100%;
+  max-width: 100%;
+}
+.resimler{
+  width: 350px;
+  height:220px;
+}
+.kutu-araları-sol{
+  margin-right: 10%;
+}
+.kutu-araları-sag{
+  margin-left: 10%;
+}
+.kutu-margin{
+  margin-left: 2%;
+}
+.kutu-margin2{
+  margin-left: 8%;
+}
+.col-lg-6{
+  padding:0;
+ }
+
+.crony-margin{
+  padding: 7% 0;
+}
+.iconlar{
+  padding-bottom: 7%;
+}
+.p-yazi{
+  width: 500px;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding-top: 5%;
+}
+.p-yazi2{
+  font-size: 1rem;
+}
+.en-boy{
+  width: 100%;
+  height: 100%;
+}

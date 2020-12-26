@@ -1,0 +1,31 @@
+a:hover{
+  border: 2px solid #1d3461;
+  color: white;
+}
+.yanlar{
+  padding: 0;
+}
+
+.arkaplan{
+  background-color:#1a1c20 ;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.resimler{
+  width: 100%;
+  height: 550px;
+  margin: 0 auto;
+}
+.iconlar{
+  padding-left: 55%;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+.yazi{
+  color: white;
+  font-family:'Amatic SC', cursive;
+  font-size: 2.5rem;
+}

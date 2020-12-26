@@ -1,0 +1,84 @@
+.ortak {
+  float: left;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 25px;
+}
+.title{
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family:sans-serif;
+}
+.fiyat{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2.2rem;
+color:white;
+padding: 10px;}
+.dolar{
+margin-bottom: 10px;
+}
+.bilgiler{
+
+}
+.icon1 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #5FB4FE 0%, #F439DA 100%);
+  border-radius: 50%;
+  font-size: 3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon2 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%);
+  border-radius: 50%;
+  font-size: 3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon3 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #9455F6 0%, #3EFB85 100%);
+  border-radius: 50%;
+  font-size: 3.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.kutu1 {
+  background: linear-gradient(135deg, #5FB4FE 0%, #F439DA 100%);
+  height: 400px;
+  width: 275px;
+  margin-top: 35px;
+}
+
+.kutu2 {
+  background: linear-gradient(135deg, #FC20DA 0%, #FAEB7F 100%);
+  height: 440px;
+  width: 275px;
+}
+
+.kutu3 {
+  background: linear-gradient(135deg, #9455F6 0%, #3EFB85 100%);
+  height: 400px;
+  width: 275px;
+  margin-top: 35px;
+}
