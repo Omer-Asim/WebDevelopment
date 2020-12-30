@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js\bootstrap.js" charset="utf-8"></script>
+  <title>NOT DEFTERİ</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+var bodyElementi = document.body;
+var sectionElemeti = document.createElement("section");
+var divElemeti = document.createElement("div");
+var h1Elementi = document.createElement("h1");
+var aElementi = document.createElement("a");
+var aSimgeElementi = document.createElement("i");
+
+var divElemetiGenel = document.createElement("div");
+var divElemeti2 = document.createElement("div");
+var textareaElementi = document.createElement("textarea");
+var butonElementi = document.createElement("button");
+var butonSimgeElementi = document.createElement("i");
+
+var divElemeti3 = document.createElement("div");
+var h3Elementi = document.createElement("h3");
+var ulElementi = document.createElement("ul");
+
+var divElemeti4 = document.createElement("div");
+var h3Elementi2 = document.createElement("h3");
+var ulElementi2 = document.createElement("ul");
+
+h1Elementi.innerText = "Not Defteri Uygulaması";
+h3Elementi.innerText = "Yapılacaklar";
+h3Elementi2.innerText = "Yapılanlar";
+
+
+
+sectionElemeti.classList.add("container-fluid", "header");
+divElemeti.classList.add("container");
+h1Elementi.classList.add("text-center", "pt-3");
+aElementi.classList.add("rounded-circle", "bg-dark");
+aSimgeElementi.classList.add("far", "fa-moon", "fa-2x", "text-primary", "px-2", "py-2");
+
+divElemetiGenel.classList.add("d-flex", "align-items-center", "justify-content-center", "mt-5");
+divElemeti2.classList.add("px-5");
+butonSimgeElementi.classList.add("fas", "fa-plus", "fa-2x", "text-white");
+
+divElemeti3.classList.add("text-center", "kutu-dizayn", "mx-5");
+ulElementi.classList.add("fa-ul");
+
+divElemeti4.classList.add("text-center", "kutu-dizayn", "ml-5");
+ulElementi2.classList.add("fa-ul");
+
+
+aElementi.setAttribute("id", "renk");
+aElementi.setAttribute("type", "button");
+aElementi.setAttribute("name", "button");
+
+textareaElementi.setAttribute("name", "name");
+textareaElementi.setAttribute("id", "input-1");
+textareaElementi.setAttribute("rows", "8");
+textareaElementi.setAttribute("cols", "40");
+
+
+butonElementi.setAttribute("id", "buton-1");
+textareaElementi.setAttribute("type", "button");
+
+
+ulElementi.setAttribute("id", "ul-1");
+ulElementi2.setAttribute("id", "ul-2");
+
+
+
+
+bodyElementi.appendChild(sectionElemeti);
+sectionElemeti.appendChild(divElemeti);
+divElemeti.appendChild(h1Elementi);
+divElemeti.appendChild(aElementi);
+aElementi.appendChild(aSimgeElementi);
+
+
+bodyElementi.appendChild(divElemetiGenel);
+divElemetiGenel.appendChild(divElemeti2);
+divElemeti2.appendChild(textareaElementi);
+divElemeti2.appendChild(butonElementi);
+butonElementi.appendChild(butonSimgeElementi);
+
+
+divElemetiGenel.appendChild(divElemeti3);
+divElemeti3.appendChild(h3Elementi);
+divElemeti3.appendChild(ulElementi);
+
+divElemetiGenel.appendChild(divElemeti4);
+divElemeti4.appendChild(h3Elementi2);
+divElemeti4.appendChild(ulElementi2);
+
+
+
+
+
+
+
+
+var inputElementiGirilen = document.querySelector("#input-1");
+
+var butonElementi5 = document.querySelector("#buton-1");
+
+var inputUl = document.querySelector("#ul-1");
+
+var inputUl2 = document.querySelector("#ul-2");
+
+var bilgiEkranı = document.querySelector(".kutu-dizayn");
+
+var butonElementi2 = document.querySelector("#renk");
+
+var navbar = document.querySelector("section");
+
+var elemanId = 0;
+
+function ButonTıklama() {
+  if (inputElementiGirilen.value) {
+    var x = '<li data-id="' + elemanId + '">' + inputElementiGirilen.value + '  <a href="#" onclick=yeni(' + elemanId + ')> <i class="fas fa-check "> </i> </a>  </li>';
+    elemanId++;
+    inputUl.insertAdjacentHTML('beforeend', x);
+    } else {
+      alert("Lütfen yapıcak bişeyler bulun !");
+    }
+
+}
+butonElementi5.onclick = ButonTıklama;
+
+function yeni(index) {
+var liElementi = document.querySelector('#ul-1 li[data-id="' + index + '"]');
+inputUl2.appendChild(liElementi);
+}
+
+var bodyElemeti = document.querySelector("body");
+
+function Toggle() {
+bodyElemeti.classList.toggle("bg-dark");
+bodyElemeti.classList.toggle("text-white");
+inputElementiGirilen.classList.toggle("bg-dark");
+inputElementiGirilen.classList.toggle("text-white");
+butonElementi5.classList.toggle("bg-info");
+bilgiEkranı.classList.toggle("renkler");
+
+if (bodyElemeti.classList.contains("bg-dark")) {
+document.querySelector("#renk").innerHTML = "<i class='far fa-sun fa-2x text-warning px-2 py-2'></i>";
+} else {
+document.querySelector("#renk").innerHTML = "<i class='far fa-moon fa-2x px-2 py-2 text-primary'>";
+  }
+
+}
+butonElementi2.onclick = Toggle;
+
+</script>
+
+</body>
+
+</html>

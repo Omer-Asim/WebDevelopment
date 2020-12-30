@@ -1,31 +1,41 @@
-a:hover{
-  border: 2px solid #1d3461;
-  color: white;
-}
-.yanlar{
+*{
+  margin: 0;
   padding: 0;
 }
-
+#footer a:hover{
+  border: 2px solid #1d3461;
+  color: #fbc531;
+}
 .arkaplan{
   background-color:#1a1c20 ;
 }
-.img{
+.carousel-inner img{
   width: 100%;
-  height: 100%;
+  height: 700px;
 }
-.resimler{
-  width: 100%;
-  height: 550px;
-  margin: 0 auto;
-}
+
 .iconlar{
   padding-left: 55%;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 1rem;
 }
 .yazi{
   color: white;
-  font-family:'Amatic SC', cursive;
-  font-size: 2.5rem;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.arkaplan h1{
+  color: #eceff3;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.arkaplan h5{
+  font-weight: bold;
+}
+marquee{
+  font-size: 3rem;
+  font-weight: bold;
 }

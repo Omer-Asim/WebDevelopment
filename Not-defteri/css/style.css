@@ -1,0 +1,50 @@
+.header{
+  background-color: #aaa69d;
+  height: 80px;
+  width: auto;
+}
+#buton-1:hover{
+  background: #341f97;
+  color:blue;
+}
+textarea{
+  height: 300px;
+  width: 300px;
+  border: 3px solid ;
+}
+div button{
+  height: 50px;
+  width: 75px;
+  display: block;
+  margin: auto;
+  background: #82589F;
+}
+.kutular-arasi-padding{
+  padding: 3% 15%;
+}
+.kutu-dizayn{
+  width: 25%;
+  height: 700px;
+  background: #f5cd79;
+  border: 2px;
+  border-radius: 10%;
+}
+h3{
+  text-decoration: underline;
+}
+li{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+#renk{
+  position: absolute;
+  bottom: 95%;
+  left: 97%;
+  height: 50px;
+  width: 50px;
+}
+.renkler{
+  background:#74b9ff ;
+}
